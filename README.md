@@ -1,33 +1,33 @@
-# Project 3 - *Name of App Here*
+# Project 3 - *Simple Tweets*
 
-**Name of your app** is an android app that allows a user to view home and mentions timelines, view user profiles with user timelines, as well as compose and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+**Simple Tweets** is an android app that allows a user to view home and mentions timelines, view user profiles with user timelines, as well as compose and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **X** hours spent in total
+Time spent: **33** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [ ] User can **sign in to Twitter** using OAuth login process
-* [ ] User can **switch between Timeline and Mention views using tabs**
-  * [ ] User is displayed the username, name, and body for each tweet
-  * [ ] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
-* [ ] User can **compose and post a new tweet**
-  * [ ] User can click a "Compose" icon in the Action Bar on the top right
-  * [ ] User can then enter a new tweet from a second activity and then post this to twitter
-* [ ] User can navigate to **view their own profile**
-  * [ ] User can see picture, tagline, # of followers, # of following, and tweets on their profile.
-* [ ] User can **click on the profile image** in any tweet to see **another user's** profile.
- * [ ] User can see picture, tagline, # of followers, # of following, and tweets of clicked user.
- * [ ] Profile view includes that user's timeline of recent tweets
+* [x] User can **sign in to Twitter** using OAuth login process
+* [x] User can **switch between Timeline and Mention views using tabs**
+  * [x] User is displayed the username, name, and body for each tweet
+  * [x] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
+* [x] User can **compose and post a new tweet**
+  * [x] User can click a "Compose" icon in the Action Bar on the top right
+  * [x] User can then enter a new tweet from a second activity and then post this to twitter
+* [x] User can navigate to **view their own profile**
+  * [x] User can see picture, tagline, # of followers, # of following, and tweets on their profile.
+* [x] User can **click on the profile image** in any tweet to see **another user's** profile.
+ * [x] User can see picture, tagline, # of followers, # of following, and tweets of clicked user.
+ * [x] Profile view includes that user's timeline of recent tweets
 
 The following **optional** features are implemented:
 
-* [ ] While composing a tweet, user can see a character counter with characters remaining for tweet out of 140
-* [ ] User can **pull down to refresh tweets** in either timeline.
-* [ ] User can **search for tweets matching a particular query** and see results.
-* [ ] Improve the user interface and theme the app to feel twitter branded with colors and styles
-* [ ] When a network request is sent, user sees an [indeterminate progress indicator](http://guides.codepath.com/android/Handling-ProgressBars#progress-within-actionbar)
+* [x] While composing a tweet, user can see a character counter with characters remaining for tweet out of 140
+* [x] User can **pull down to refresh tweets** in either timeline.
+* [x] User can **search for tweets matching a particular query** and see results.
+* [x] Improve the user interface and theme the app to feel twitter branded with colors and styles
+* [x] When a network request is sent, user sees an [indeterminate progress indicator](http://guides.codepath.com/android/Handling-ProgressBars#progress-within-actionbar)
 * [ ] User can **"reply" to any tweet on their home timeline**
   * [ ] The user that wrote the original tweet is automatically "@" replied in compose
 * [ ] User can click on a tweet to be **taken to a "detail view"** of that tweet
@@ -50,13 +50,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/IdSSCIS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+Using fragments (and loading views into them) instead of activities was not too familiar with me and it was difficult to distinguish between the capabilities and methods of fragments and activities. I still found the search query a little challenging, although we implemented it in the NY Times app, because of the different API and the use of a Twitter Client.
 
 ## Open-source libraries used
 
